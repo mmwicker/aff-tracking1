@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Loading...</title>
+</head>
+<body>
+<?php
+$landingurl = 'http://www.merchants_website.com/mylandingpage.html?affID=12345&subid=';
+$gclid=$_GET['gclid'];
+$landingurl = $landingurl . $gclid;
+?>
+<meta http-equiv="refresh" content="0; url=<?=$landingurl?>">
+</body>
+</html>
